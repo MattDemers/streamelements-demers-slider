@@ -1,6 +1,6 @@
 # Matt Demers' Simple Slider Widget for StreamElements
 
-I was annoyed at StreamElements' default "Row" widget, so I decided to make my own. It's a 500w x 100h animation that respects StreamElements' animations (I like slide in/out).
+I was annoyed at StreamElements' default "Row" widget, so I decided to make my own. It's a 500w x 100h animation that respects StreamElements' animations (I like slide in/out). **Best placed on the edge of your scene).
 
 ![Image](/demo.gif)
 
@@ -32,6 +32,12 @@ Inside the variables menu, there are options for:
 * Text Alignment
 
 **In text alignment**, if you want to add the Highlight color around anything, surround the word(s) with `<span class="highlight">TEXT</span>`. You must also include StreamElements' variables (see below)
+
+Example:
+
+`<span class="highlight">{name}</span> is the new wallet god with a <span class="highlight">{currency}{amount}</span> donation!`
+
+The above code in the "Message" field would highlight the {name}, {currency} and {amount} variables.
 
 ### How to find StreamElements' variables
 
