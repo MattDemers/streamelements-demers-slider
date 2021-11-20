@@ -2,6 +2,8 @@
 
 I was annoyed at StreamElements' default "Row" widget, so I decided to make my own.
 
+![Image](/demo.gif)
+
 ## Instructions for Install:
 
 1. Enable custom CSS for your widget.
