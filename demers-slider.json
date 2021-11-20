@@ -5,6 +5,14 @@
   "value": "#0000FF",
   "group": "Variables"
   },
+
+  "bgColor": {
+  "type": "colorpicker",
+  "label": "Highlight Color",
+  "value": "rgba(0, 0, 0, 0.3)",
+  "group": "Variables"
+  },
+
   
   "imgIcon": {
   "type": "image-input",
