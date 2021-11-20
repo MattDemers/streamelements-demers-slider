@@ -1,3 +1,13 @@
+/* Slide animation */
+@keyframes slide-left {
+  0% {opacity: 0; margin-left:-500px;}
+  0.1% {opacity: 1;}
+  20% {margin-left:-8px;}
+  80% {margin-left:-8px;}
+  99.9% {opacity: 1;}
+  100% {opacity: 0; margin-left:-500px;}
+}
+
 /* Styles the main container; default is 500x100 (wxh). The -8px margin is to offset what StreamElements adds in their editor */
 
 .main-container {
@@ -10,6 +20,8 @@
     margin-left: -8px;
     height:100px;
     width:500px;
+    animation-name: slide-left;
+    animation-duration: 6s;
 }
 
 /* Styles for the image. Change the last padding value to increase/lessen the gap between the image and text */
@@ -39,7 +51,7 @@
     font-weight: bold;
     font-size: 1.5rem;
     margin-left: 15px;
-    margin-right: 10px;
-    margin-top: 3px;
+    margin-right:10px;
+    align-items: center;
     font-family: '{fontName}', sans-serif;
 }
