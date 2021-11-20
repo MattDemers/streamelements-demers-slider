@@ -1,7 +1,11 @@
+/*  Imports Lato from Google Fonts, and sets it as the font family for everything. Replace as needed. */
+
 @import url('https://fonts.googleapis.com/css?family=Lato');
 * {
     font-family: 'Lato', sans-serif;
 }
+
+/* Styles the main container; default is 500x100 (wxh). The -8px margin is to offset what StreamElements adds in their editor */
 
 .main-container {
     color: rgb(255, 255, 255);
@@ -15,18 +19,18 @@
     width:500px;
 }
 
+/* Styles for the image. Change the last padding value to increase/lessen the gap between the image and text */
+
 .image-container {
     padding: 5px 5px 5px 15px;
     display:table;
 }
+
+/* Styles the alert text */
 
 .text-container {
     font-weight: bold;
     font-size: 1.5rem;
     margin-left: 15px;
     margin-right:10px;
-}
-
-.username {
-  color: #195fad;
 }
