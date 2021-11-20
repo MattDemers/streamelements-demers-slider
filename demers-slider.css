@@ -34,6 +34,7 @@
 /* Styles the alert text */
 
 .text-container {
+    text-align: {textAlign};
     font-weight: bold;
     font-size: 1.5rem;
     margin-left: 15px;

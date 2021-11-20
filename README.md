@@ -1,6 +1,6 @@
 # Matt Demers' Simple Slider Widget for StreamElements
 
-I was annoyed at StreamElements' default "Row" widget, so I decided to make my own.
+I was annoyed at StreamElements' default "Row" widget, so I decided to make my own. It's a 500w x 100h animation that respects StreamElements' animations (I like slide in/out).
 
 ![Image](/demo.gif)
 
@@ -29,6 +29,14 @@ Under "variables" there's an image picker
 
 Under "variables" there's a color picker
 
+### How to change the background opacity/color
+
+Under "variables" there's a color picker
+
+### How to change the text alignment
+
+Under "variables" there's a dropdown menu
+
 ### Font
 
 Under "variables" there's a Google Font picker
@@ -37,11 +45,13 @@ Under "variables" there's a Google Font picker
 
 In the "variables", you can change your message for the alert. You can put in StreamElements' variables. If you want to add the Highlight color around anything, surround the word(s) with `<span class="highlight">TEXT</span>`.
 
-## How to find StreamElements' variables
+### How to find StreamElements' variables
 
 Usually in the alert you're editing, it'll show the valid variables at the top.
 
 ![Image](/variables.png)
+
+
 
 
 

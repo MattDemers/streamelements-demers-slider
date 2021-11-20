@@ -2,13 +2,13 @@
   "HighlightColor": {
   "type": "colorpicker",
   "label": "Highlight Color",
-  "value": "#0000FF",
+  "value": "#195fad",
   "group": "Variables"
   },
 
   "bgColor": {
   "type": "colorpicker",
-  "label": "Highlight Color",
+  "label": "Background Color",
   "value": "rgba(0, 0, 0, 0.3)",
   "group": "Variables"
   },
@@ -29,9 +29,21 @@
   },
 
   "messageText": {
-  "type": "text"
-  "label": "Message Text"
-  "value": "<span class=\"highlight\">{name}</span> just followed the channel!"
+  "type": "text",
+  "label": "Message Text",
+  "value": "<span class=\"highlight\">{name}</span> just followed the channel!",
+  "group": "Variables"
+  },
+
+  "textAlign": {
+  "type": "dropdown",
+  "label": "Text Align",
+  "value": "center",
+  "options": {
+    "center": "Center",
+    "left": "Left",
+    "right": "Right"
+  },
   "group": "Variables"
   }
 }
