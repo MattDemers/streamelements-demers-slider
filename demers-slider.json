@@ -18,5 +18,16 @@
   "label": "Font name",
   "value": "Lato",
   "group": "Variables"
+  },
+  
+    "alertType": {
+    "type": "dropdown",
+    "label": "Alert Type:",
+    "value": "New Follower",
+    "options": {
+      "<span class=\"highlight-color\">{name}</span> just followed!": "New Follower",
+        "<span class=\"highlight-color\">{name}</span> just subscribed!": "New Subscriber"
+    },
+    "group": "Variables"
   }
 }

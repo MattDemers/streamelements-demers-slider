@@ -2,22 +2,40 @@
 
 I was annoyed at StreamElements' default "Row" widget, so I decided to make my own.
 
-## Instructions:
+## Instructions for Install:
 
 1. Enable custom CSS for your widget.
 2. Add the contents of "demers-slider.css" to the CSS tab
 3. Add the contents of "demers-slider.html" to the HTML tab
-4. Add the contents of "demers-slider.js" to the JS tab (I didn't change much in here that would affect the widget, but I figured I'd keep it just in case something broke)
+4. Add the contents of "demers-slider.json" to the Fields tab
 
-## How to add images
+## Instructions for Customization
 
-I don't know how to implement StreamElements' UI picker (for now), so here's how I added images.
+**Important Note**: You **must** use the pickers in the "Variables" menu, **not** the default StreamElements pickers. These will not work.
 
-* Upload images to Imgur.com and use that direct URL in the .html code (see the code itself for instructions)
-* Upload an image to StreamElements and "choose" it, then right-click the image and hit "copy **image** URL"
+### Images
+
+Under "variables" there's an image picker
+
+### Highlight color
+
+Under "variables" there's a color picker
+
+### Font
+
+Under "variables" there's a Google Font picker
 
 ![Image](/rightclick.gif)
 
 ## How to add your own highlight color
 
+Change the hex code in the .html file (see comments in the file)
+
 ## How to find StreamElements' variables
+
+In each 
+
+![Image](/alertvariables.png)
+
+
+
