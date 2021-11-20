@@ -10,6 +10,7 @@ I was annoyed at StreamElements' default "Row" widget, so I decided to make my o
 2. Add the contents of "demers-slider.css" to the CSS tab
 3. Add the contents of "demers-slider.html" to the HTML tab
 4. Add the contents of "demers-slider.json" to the Fields tab
+5. Customize your variables (see below)
 
 ## Instructions for Customization
 
@@ -25,7 +26,7 @@ Inside the variables menu, there are options for:
 
 * Highlight color
 * Background color
-* Image
+* Image (will scale down with more message text; 100x100 works best, and will be scaled to 85% to have a nice padding around it. Can change the CSS if you'd like.)
 * Font Family
 * Message text
 * Text Alignment
