@@ -1,0 +1,22 @@
+{
+  "HighlightColor": {
+  "type": "colorpicker",
+  "label": "Highlight Color",
+  "value": "#0000FF",
+  "group": "Variables"
+  },
+  
+  "imgIcon": {
+  "type": "image-input",
+  "label": "Icon",
+  "value": "https://cdn.streamelements.com/static/custom-event-list/follower.svg",
+  "group": "Variables"
+  },
+  
+  "fontName": {
+  "type": "googleFont",
+  "label": "Font name",
+  "value": "Lato",
+  "group": "Variables"
+  }
+}
