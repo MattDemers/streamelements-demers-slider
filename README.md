@@ -11,7 +11,7 @@ I was annoyed at StreamElements' default "Row" widget, so I decided to make my o
 
 ## Instructions for Customization
 
-**Important Note**: You **must** use the pickers in the "Variables" menu, **not** the default StreamElements pickers. These will not work.
+**Important Note**: You **must** use the pickers and text field in the "Variables" menu, **not** the default StreamElements pickers. These will not work.
 
 ### Images
 
@@ -27,23 +27,13 @@ Under "variables" there's a Google Font picker
 
 ### Message
 
-Under "variables" there's a message selector. If you'd like to change the message, change it in "demers-slider.json". **Be mindful to keep the \s in the HTML for the highlight color. They need to be before the double quotes before/after "highlight color"**.
-
-`
-"<span class=\"highlight-color\">{name}</span> just subscribed!": "New Subscriber"`
-
-If you want to keep "name" the highlight color, copy `<span class=\"highlight-color\">{name}</span>` together to keep it like that. You can also surround any other word with `<span class=\"highlight-color\">WORDGOESHERE</span>` to apply the highlight color.
-
-
-## How to add your own highlight color
-
-Change the hex code in the .html file (see comments in the file)
+In the "variables", you can change your message for the alert. You can put in StreamElements' variables. If you want to add the Highlight color around anything, surround the word(s) with `<span class="highlight">TEXT</span>`.
 
 ## How to find StreamElements' variables
 
-In each 
+Usually in the alert you're editing, it'll show the valid variables at the top.
 
-![Image](/alertvariables.png)
+![Image](/variables.png)
 
 
 
