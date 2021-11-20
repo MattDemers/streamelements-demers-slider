@@ -14,7 +14,8 @@ I was annoyed at StreamElements' default "Row" widget, so I decided to make my o
 **Important Note**: You **must** use the pickers and text field in the "Variables" menu, **not** the default StreamElements pickers. These will not work. 
 
 ```diff
-- The sound dialog, however, WILL work.```
+- The sound dialog, however, WILL work.
+```
 
 ![Image](/variables2.png)
 
