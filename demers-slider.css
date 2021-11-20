@@ -1,10 +1,3 @@
-/*  Imports Lato from Google Fonts, and sets it as the font family for everything. Replace as needed. */
-
-@import url('https://fonts.googleapis.com/css?family=Lato');
-* {
-    font-family: 'Lato', sans-serif;
-}
-
 /* Styles the main container; default is 500x100 (wxh). The -8px margin is to offset what StreamElements adds in their editor */
 
 .main-container {
@@ -25,12 +18,18 @@
     height: 100px;
     width: 100px;
     display:table;
-    background-image: url('{followImage}');
+    background-image: url('{imgIcon}');
     background-repeat: no-repeat;
     background-size: 85%;
     background-position: center;
     
 }
+
+/* Highlight Color style */
+
+.highlight-color {
+  color: {{HighlightColor}};
+    }
 
 /* Styles the alert text */
 
@@ -39,4 +38,5 @@
     font-size: 1.5rem;
     margin-left: 15px;
     margin-right:10px;
+    font-family: '{fontName}', sans-serif;
 }
