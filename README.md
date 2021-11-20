@@ -25,7 +25,15 @@ Under "variables" there's a color picker
 
 Under "variables" there's a Google Font picker
 
-![Image](/rightclick.gif)
+### Message
+
+Under "variables" there's a message selector. If you'd like to change the message, change it in "demers-slider.json". **Be mindful to keep the \s in the HTML for the highlight color. They need to be before the double quotes before/after "highlight color"**.
+
+`
+"<span class=\"highlight-color\">{name}</span> just subscribed!": "New Subscriber"`
+
+If you want to keep "name" the highlight color, copy `<span class=\"highlight-color\">{name}</span>` together to keep it like that. You can also surround any other word with `<span class=\"highlight-color\">WORDGOESHERE</span>` to apply the highlight color.
+
 
 ## How to add your own highlight color
 
