@@ -21,29 +21,16 @@ I was annoyed at StreamElements' default "Row" widget, so I decided to make my o
 
 ![Image](/variables2.png)
 
-### Images
+Inside the variables menu, there are options for:
 
-Under "variables" there's an image picker
+* Highlight color
+* Background color
+* Image
+* Font Family
+* Message text
+* Text Alignment
 
-### Highlight color
-
-Under "variables" there's a color picker
-
-### How to change the background opacity/color
-
-Under "variables" there's a color picker
-
-### How to change the text alignment
-
-Under "variables" there's a dropdown menu
-
-### Font
-
-Under "variables" there's a Google Font picker
-
-### Message
-
-In the "variables", you can change your message for the alert. You can put in StreamElements' variables. If you want to add the Highlight color around anything, surround the word(s) with `<span class="highlight">TEXT</span>`.
+**In text alignment**, if you want to add the Highlight color around anything, surround the word(s) with `<span class="highlight">TEXT</span>`. You must also include StreamElements' variables (see below)
 
 ### How to find StreamElements' variables
 
