@@ -13,6 +13,8 @@ I was annoyed at StreamElements' default "Row" widget, so I decided to make my o
 
 **Important Note**: You **must** use the pickers and text field in the "Variables" menu, **not** the default StreamElements pickers. These will not work.
 
+![Image](/variables2.png)
+
 ### Images
 
 Under "variables" there's an image picker
