@@ -22,8 +22,14 @@
 /* Styles for the image. Change the last padding value to increase/lessen the gap between the image and text */
 
 .image-container {
-    padding: 5px 5px 5px 15px;
+    height: 100px;
+    width: 100px;
     display:table;
+    background-image: url('{followImage}');
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+    
 }
 
 /* Styles the alert text */
