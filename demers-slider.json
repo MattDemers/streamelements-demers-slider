@@ -53,7 +53,7 @@
   "value": "slide-left",
   "options": {
     "slide-left": "Left",
-    "slide-right": "Right",
+    "slide-right": "Right"
   },
   "group": "Variables"
   }
