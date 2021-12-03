@@ -1,0 +1,1 @@
+$('.maincontainer').animate({left: '500px', opacity: '1.0'}, 1000);

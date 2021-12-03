@@ -45,5 +45,16 @@
     "right": "Right"
   },
   "group": "Variables"
+  },
+
+  "slideDirection": {
+  "type": "dropdown",
+  "label": "Text Align",
+  "value": "slide-left",
+  "options": {
+    "slide-left": "Left",
+    "slide-right": "Right",
+  },
+  "group": "Variables"
   }
 }
